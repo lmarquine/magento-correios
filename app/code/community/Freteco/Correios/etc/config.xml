@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Freteco_Correios>
+            <version>0.1.0</version>
+        </Freteco_Correios>
+    </modules>
+    <global>
+        <models>
+            <freteco_correios>
+                <class>Freteco_Correios_Model</class>
+            </freteco_correios>
+            <pedroteixeira_correios>
+                <rewrite>
+                    <carrier_correiosMethod>Freteco_Correios_Model_Correios_Carrier_CorreiosMethod</carrier_correiosMethod>
+                </rewrite>
+            </pedroteixeira_correios>
+        </models>
+    </global>
+    <default>
+        <carriers>
+            <pedroteixeira_correios>
+                <model>Freteco_Correios_Model_Carrier_CorreiosMethod</model>
+                <url_ws_freteco>http://frete.co/api/correios?mode=CalcPrecoPrazo</url_ws_freteco>
+            </pedroteixeira_correios>
+        </carriers>
+    </default>
+</config>

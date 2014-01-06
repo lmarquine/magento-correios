@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Freteco_Correios>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <PedroTeixeira_Correios/>
+            </depends>
+        </Freteco_Correios>
+    </modules>
+</config>
