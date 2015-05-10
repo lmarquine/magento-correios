@@ -21,7 +21,7 @@
         <carriers>
             <pedroteixeira_correios>
                 <model>Freteco_Correios_Model_Carrier_CorreiosMethod</model>
-                <url_ws_freteco>http://frete.co/api/correios?mode=CalcPrecoPrazo</url_ws_freteco>
+                <url_ws_freteco>https://frete.co/api/v1/carriers/correios.aspx</url_ws_freteco>
             </pedroteixeira_correios>
         </carriers>
     </default>
