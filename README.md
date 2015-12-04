@@ -11,7 +11,7 @@
 ### Instalar com [modgit](https://github.com/jreinke/modgit)
     $ cd path/to/magento
     $ modgit init
-    $ modgit clone freteco-correios git@github.com:frete/magento-correios.git
+    $ modgit add freteco-correios git@github.com:frete/magento-correios.git
 
 Ou faça manualmente:
 
